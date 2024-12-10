@@ -48,7 +48,7 @@ class AuthGate extends StatelessWidget {
             },
           );
         }
-
+        //當我們 snapshot.hasData 為 TRUE 也就是有登入的資料則跳轉至我們系統內(homeScreen)
         return const HomeScreen();
       },
     );
